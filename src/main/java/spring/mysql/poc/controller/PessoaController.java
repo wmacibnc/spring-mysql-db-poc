@@ -62,7 +62,7 @@ public class PessoaController {
 	}
 
 	private String formatarHora(Date data) {
-		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss:SSS");
 		return sdf.format(data);
 	}
 }
